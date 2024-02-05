@@ -1,10 +1,10 @@
 import bGlow from "../assets/bGlow2.png";
 
-const FireFly = () => {
+const FireFly = ({ height, width }) => {
   return (
     <main
-      className="w-28 h-28  relative flex flex-col items-center justify-center
-      -rotate rounded-full backdrop-brightness-200"
+      className={`w-${width} h-${height} relative flex flex-col items-center justify-center
+      -rotate rounded-full backdrop-brightness-200`}
     >
       <img
         src={bGlow}

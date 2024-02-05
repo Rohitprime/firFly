@@ -44,6 +44,10 @@ export default {
           "90%": { filter: "brightness(.4)" },
           "100%": { filter: "brightness(.2)" },
         },
+        fireFlyMove: {
+          "0%": { transform: "translateX(100px)" },
+          "100%": { transform: "translateX(200px)" },
+        },
       },
       animation: {
         fireFlyWingLeft: "fireFlyWingLeft .4s linear infinite",
@@ -51,6 +55,7 @@ export default {
         fireFlyWingright: "fireFlyWingright .4s linear infinite",
         fireFlyWingright2: "fireFlyWingright2 .8s linear infinite",
         fireFlyGlow: "fireflyGlow 2s linear infinite",
+        fireFlyMove: "fireFlyMove 2s linear infinite",
       },
     },
   },
