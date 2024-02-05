@@ -15,9 +15,9 @@ function App() {
         style={{ x, y, rotate: dir }}
         transition={{ type: "tween" }}
         translate={{}}
-        className={`absolute z-[100] rounded-ful`}
+        className={`absolute z-[100] rounded-full`}
       >
-        <FireFly width={"28"} height={"28"} />
+        <FireFly width={28} height={28} />
       </motion.div>
       <Hero />
     </div>

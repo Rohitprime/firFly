@@ -1,9 +1,11 @@
-import bGlow from "../assets/bGlow2.png";
+import bGlow from "../assets/bGlow.png";
 
-const FireFly = ({ height, width }) => {
+import PropTypes from "prop-types";
+
+const FireFly = () => {
   return (
     <main
-      className={`w-${width} h-${height} relative flex flex-col items-center justify-center
+      className={`w-16 h-16 relative flex flex-col items-center justify-center
       -rotate rounded-full backdrop-brightness-200`}
     >
       <img
@@ -71,4 +73,8 @@ const FireFly = ({ height, width }) => {
   );
 };
 
+FireFly.prototype = {
+  width: PropTypes.string,
+  height: PropTypes.string,
+};
 export default FireFly;
