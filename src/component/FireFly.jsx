@@ -1,4 +1,4 @@
-import bGlow from "../assets/bGlow.png";
+import bGlow from "../assets/bGlow2.png";
 
 import PropTypes from "prop-types";
 
